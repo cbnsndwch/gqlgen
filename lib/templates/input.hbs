@@ -1,0 +1,12 @@
+/**
+ * {{{description}}}
+ */
+export interface {{name}} {
+    {{#each fields}}
+
+    /**
+     * {{{description}}}
+     */
+    {{name}}{{#if isNullable}}?{{/if}}: {{type}}{{#if isArray}}[]{{/if}};
+    {{/each}}
+}

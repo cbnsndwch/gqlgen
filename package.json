@@ -1,0 +1,25 @@
+{
+	"name": "gqlgen",
+	"version": "0.1.0",
+	"description": "An opinionated CLI to generate Apollo Server boilerplate projects from GraphQL schemas.",
+	"preferGlobal": true,
+	"bin": "./contact.js",
+	"scripts": {},
+	"keywords": [ "graphql", "codegen", "typescript", "ts", "apollo", "handlebars", "node", "nodejs" ],
+	"author": {
+		"name": "Sergio Leon",
+		"url": "https://github.com/sergelg90"
+	},
+	"license": "MIT",
+	"dependencies": {
+		"apollo-server": "2.7.2",
+		"colors": "1.3.3",
+		"commander": "2.20.0",
+		"graphql": "14.4.2",
+		"handlebars": "4.1.2",
+		"lodash": "4.17.15"
+	},
+	"devDependencies": {
+		"rimraf": "2.6.3"
+	}
+}

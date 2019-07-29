@@ -1,0 +1,12 @@
+{{#each arguments}}import { {{type}} } from '../../inputs/{{type}}';
+{{/each}}import { {{type}} } from '../../types/{{type}}';
+
+/**
+ * {{{description}}}{{#if hasArguments}}
+ *{{#each arguments}}
+ * @param {{name}} {{description}}{{/each}}{{/if}}
+ */
+export async function {{name}}({{#each arguments}}{{name}}{{#if isNullable}}?{{/if}}: {{type}}{{#if isArray}}[]{{/if}}, {{/each}}): Promise<{{type}}{{#if isArray}}[]{{/if}}> {
+    // TODO: implement
+    throw new Error('Not implemented!');
+}
