@@ -4,7 +4,6 @@
 	"description": "An opinionated CLI to generate Apollo Server boilerplate projects from GraphQL schemas.",
 	"preferGlobal": true,
 	"bin": "./contact.js",
-	"scripts": {},
 	"keywords": [ "graphql", "codegen", "typescript", "ts", "apollo", "handlebars", "node", "nodejs" ],
 	"author": {
 		"name": "Sergio Leon",
