@@ -16,7 +16,7 @@
 		"commander": "2.20.0",
 		"graphql": "14.4.2",
 		"handlebars": "4.1.2",
-		"lodash": "4.17.15"
+		"lodash": "4.17.19"
 	},
 	"devDependencies": {
 		"rimraf": "2.6.3"
